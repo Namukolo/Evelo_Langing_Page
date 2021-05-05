@@ -1,1 +1,141 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e5ebee;
+}
+
+.above-the-fold {
+  font-family: "Antonio", sans-serif;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.8)), to(rgba(128, 128, 128, 0.5))), url(images/background-large-2.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(128, 128, 128, 0.5)), url(images/background-large-2.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+}
+
+nav {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 8vh;
+  padding-top: 4rem;
+}
+
+nav .logo .logo-text {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-family: "Zen Dots", cursive;
+}
+
+nav .logo .logo-subtext {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid #fff;
+  letter-spacing: 0.2rem;
+}
+
+.icon-shopping svg {
+  fill: #fff;
+}
+
+.header--text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header--text h1 {
+  font-size: 16rem;
+  text-transform: uppercase;
+  width: 120%;
+}
+
+.header--text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-top: 2rem;
+  width: 85%;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.btn-shop {
+  background-color: #f76846;
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 3rem;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  bottom: 4rem;
+}
+
+.btn-shop a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-shop svg {
+  fill: #fff;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,39 @@
+// font-family: 'Antonio', sans-serif;
+
+// font-family: 'Montserrat', sans-serif;
+
+// font-family: 'Poppins', sans-serif;
+
+// font-family: 'Zen Dots', cursive;
+
+// Typography
+$font--logo: "Zen Dots", cursive;
+$font--header: "Antonio", sans-serif;
+$font--text: "Poppins", sans-serif;
+
+// Color
+$background--white: rgb(229, 235, 238);
+$color--accent: #f76846;
+$text--white: #fff;
+$text--dark: rgb(97, 89, 89);
+
+//utilities
+$test: 1px solid red;
+$test-secondary: 1px solid blue;
+$test-tertiary: 1px solid gold;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: $background--white;
+}
+
+//Imports
+
+@import "partials/home";
+@import "partials/features";

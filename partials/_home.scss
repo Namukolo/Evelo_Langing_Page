@@ -1,0 +1,110 @@
+.above-the-fold {
+  font-family: $font--header;
+  color: $text--white;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url(images/background-large-2.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+  //   border: $test;
+}
+
+nav {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  padding-top: 4rem;
+
+  .logo {
+    .logo-text {
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      font-family: $font--logo;
+    }
+    .logo-subtext {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.nav-links {
+  text-transform: uppercase;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: $text--white;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+    &:hover {
+      border-bottom: 2px solid $text--white;
+      letter-spacing: 0.2rem;
+    }
+  }
+}
+
+.icon-shopping {
+  svg {
+    fill: $text--white;
+  }
+}
+
+.header--text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1 {
+    font-size: 16rem;
+    text-transform: uppercase;
+    width: 120%;
+  }
+
+  p {
+    font-family: $font--text;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-top: 2rem;
+    width: 85%;
+    font-weight: 300;
+    line-height: 2.5rem;
+  }
+}
+
+.btn-shop {
+  background-color: $color--accent;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 3rem;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  bottom: 4rem;
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $text--white;
+  }
+  svg {
+    fill: $text--white;
+  }
+}
