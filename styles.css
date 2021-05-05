@@ -11,6 +11,9 @@ html {
 
 body {
   background-color: #e5ebee;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #615959;
 }
 
 .above-the-fold {
@@ -137,5 +140,207 @@ nav .logo .logo-subtext {
 
 .btn-shop svg {
   fill: #fff;
+}
+
+.features {
+  padding: 12rem 12rem;
+  position: relative;
+}
+
+.features .main-header,
+.features h2 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+  width: 30%;
+}
+
+.features img {
+  width: 100rem;
+  position: relative;
+  left: 10%;
+}
+
+.features .illustration-one {
+  font-size: 50rem;
+  color: #fff;
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+  left: 0%;
+  position: absolute;
+  z-index: -1;
+}
+
+.features .illustration-cross {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #f76846;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: -1.3rem;
+  right: 50%;
+}
+
+.features .illustration-indicators {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #f76846;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  outline: 1.8rem solid rgba(247, 104, 70, 0.3);
+  z-index: 3;
+}
+
+.features .one {
+  top: 51%;
+  left: 31%;
+}
+
+.features .two {
+  top: 30%;
+  left: 47%;
+}
+
+.features .three {
+  top: 52%;
+  left: 49%;
+}
+
+.features .card {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 8rem 3rem 5rem 3rem;
+  background-color: #fff;
+  border-top: 0.5rem solid #f76846;
+  position: absolute;
+  right: 22%;
+  bottom: 45%;
+}
+
+.features .card .card__header {
+  font-size: 2.5rem;
+  width: 100%;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+  color: #181818;
+}
+
+.features .card p {
+  font-size: 1.1rem;
+  display: inline-block;
+  width: 90%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.features .btn-next {
+  background-color: #f76846;
+  width: 60%;
+  padding: 0rem 2.5rem;
+  background-color: #f76846;
+  color: #fff;
+  font-family: "Antonio", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features .btn-next p {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.features .btn-next svg {
+  fill: #fff;
+}
+
+.feature-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15rem;
+}
+
+.feature-details .feature-detail {
+  font-size: 1.6rem;
+  width: 30%;
+}
+
+.feature-details .feature-detail .feature-detail__header {
+  font-size: 2.5rem;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  color: #181818;
+  margin-bottom: 1.5rem;
+}
+
+.feature-details .feature-detail .feature-detail__text {
+  font-size: 1.3rem;
+  width: 90%;
+  line-height: 2.3rem;
+}
+
+.feature-details .feature-detail .feature-detail__icon {
+  position: relative;
+  height: 13rem;
+  left: -40%;
+  top: 15%;
+  z-index: -3;
+}
+
+.feature-details .feature-detail .feature-detail__icon svg {
+  fill: #fff;
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

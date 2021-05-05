@@ -1,0 +1,155 @@
+.features {
+  padding: 12rem 12rem;
+  position: relative;
+  .main-header,
+  h2 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-family: $font--header;
+    width: 30%;
+  }
+
+  img {
+    width: 100rem;
+    position: relative;
+    left: 10%;
+  }
+
+  .illustration-one {
+    font-size: 50rem;
+    color: $text--white;
+    font-family: $font--header;
+    font-weight: 700;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .illustration-cross {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: $text--white;
+    background-color: $color--accent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -1.3rem;
+    right: 50%;
+  }
+
+  .illustration-indicators {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: $text--white;
+    background-color: $color--accent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    outline: 1.8rem solid rgba(247, 104, 70, 0.3);
+    z-index: 3;
+  }
+
+  .one {
+    top: 51%;
+    left: 31%;
+  }
+  .two {
+    top: 30%;
+    left: 47%;
+  }
+  .three {
+    top: 52%;
+    left: 49%;
+  }
+  .card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8rem 3rem 5rem 3rem;
+    background-color: $text--white;
+    border-top: 0.5rem solid $color--accent;
+    // position: relative;
+    position: absolute;
+    right: 22%;
+    bottom: 45%;
+    .card__header {
+      font-size: 2.5rem;
+      width: 100%;
+      font-family: $font--header;
+      text-transform: uppercase;
+      padding: 0;
+      color: $text--black;
+    }
+    p {
+      font-size: 1.1rem;
+      display: inline-block;
+      width: 90%;
+      //   border: $test;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  .btn-next {
+    background-color: $color--accent;
+    width: 60%;
+    padding: 0rem 2.5rem;
+    background-color: $color--accent;
+    color: $text--white;
+    font-family: $font--header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-end;
+    p {
+      text-transform: uppercase;
+      letter-spacing: 0.3rem;
+    }
+    justify-content: space-between;
+    svg {
+      fill: $text--white;
+    }
+  }
+}
+
+.feature-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15rem;
+  .feature-detail {
+    font-size: 1.6rem;
+    width: 30%;
+    .feature-detail__header {
+      font-size: 2.5rem;
+      font-family: $font--header;
+      text-transform: uppercase;
+      color: $text--black;
+      margin-bottom: 1.5rem;
+    }
+    .feature-detail__text {
+      font-size: 1.3rem;
+      width: 90%;
+      line-height: 2.3rem;
+    }
+    .feature-detail__icon {
+      //   border: $test;
+      position: relative;
+      height: 13rem;
+      left: -40%;
+      top: 15%;
+      z-index: -3;
+      svg {
+        fill: $text--white;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
