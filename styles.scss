@@ -12,6 +12,7 @@ $font--header: "Antonio", sans-serif;
 $font--text: "Poppins", sans-serif;
 
 // Color
+$color---white-darker: rgb(150, 152, 153);
 $background--white: rgb(229, 235, 238);
 $color--accent: #f76846;
 $text--white: #fff;
@@ -22,6 +23,9 @@ $text--dark: rgb(97, 89, 89);
 $test: 1px solid red;
 $test-secondary: 1px solid blue;
 $test-tertiary: 1px solid gold;
+
+//experiments
+$gradrient: linear-gradient(to right, red, blue);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -41,3 +45,4 @@ body {
 
 @import "partials/home";
 @import "partials/features";
+@import "partials/reviews";

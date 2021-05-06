@@ -20,7 +20,7 @@
     color: $text--white;
     font-family: $font--header;
     font-weight: 700;
-    left: 0%;
+    left: 4%;
     position: absolute;
     z-index: -1;
   }
@@ -123,6 +123,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 15rem;
+  margin-bottom: 15rem;
   .feature-detail {
     font-size: 1.6rem;
     width: 30%;
