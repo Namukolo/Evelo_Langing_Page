@@ -1,0 +1,75 @@
+.survey {
+  height: 140vh;
+  width: 100%;
+  background-color: $background--white;
+  //   border: $test;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .header {
+    font-family: $font--header;
+    font-size: 6rem;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-transform: uppercase;
+    // border: $test;
+    width: 50%;
+    color: $text--black;
+  }
+}
+
+.illustration-one--white {
+  font-size: 40rem;
+  color: $text--white;
+  font-family: $font--header;
+  font-weight: 700;
+  left: 10%;
+  top: 0;
+  position: absolute;
+  //   z-index: -1;
+}
+.options-container {
+  position: relative;
+  width: 80%;
+  //   border: $test;
+  height: 20rem;
+  bottom: 15%;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  li {
+    height: 100%;
+    width: 24%;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: $font--header;
+    color: $text--black;
+    // border: $test-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4rem;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s;
+  }
+  li:hover {
+    height: 150%;
+    background-color: $text--white;
+    border-bottom: 4px solid $color--accent;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  svg {
+    height: 100%;
+    width: 30%;
+    fill: $text--dark;
+  }
+}

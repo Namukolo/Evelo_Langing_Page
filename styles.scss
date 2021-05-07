@@ -38,10 +38,16 @@ body {
   font-size: 2rem;
   color: $text--dark;
 }
-
+.wrapper {
+  max-width: 1440px;
+}
 //Imports
 
 @import "partials/home";
 @import "partials/features";
 @import "partials/reviews";
 @import "partials/products";
+@import "partials/why-us";
+@import "partials/service";
+@import "partials/survey";
+@import "partials/footer";

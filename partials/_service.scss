@@ -1,0 +1,67 @@
+.service {
+  background-color: $text--white;
+  width: 95%;
+  position: relative;
+  right: -5%;
+  padding-bottom: 15rem;
+  padding-top: 2rem;
+  &-header {
+    // font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: $font--header;
+    text-transform: uppercase;
+    color: $text--black;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  //   border: $test;
+
+  &__content {
+    // border: $test;
+    width: 50%;
+    .service-header {
+      width: 80%;
+      padding: 0;
+      //   border: $test-secondary;
+    }
+    &-text {
+      font-size: 1.3rem;
+      line-height: 2.4rem;
+      width: 75%;
+      margin-bottom: 1rem;
+    }
+
+    .btn-contact {
+      display: flex;
+      justify-content: space-between;
+      width: 12rem;
+      align-items: center;
+      font-family: $font--header;
+      font-size: 1.4rem;
+      letter-spacing: 0.1rem;
+      //   margin-top: 3rem;
+
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $color--accent;
+      }
+      svg {
+        fill: $color--accent;
+      }
+    }
+  }
+
+  .large {
+    // flex: 1;
+    // border: $test;
+    width: 35%;
+    // border-radius: 50%;
+  }
+}

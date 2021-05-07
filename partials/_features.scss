@@ -1,3 +1,13 @@
+.illustration-one {
+  font-size: 50rem;
+  color: $text--white;
+  font-family: $font--header;
+  font-weight: 700;
+  left: 4%;
+  position: absolute;
+  z-index: -1;
+}
+
 .features {
   padding: 12rem 12rem;
   position: relative;
@@ -7,22 +17,13 @@
     text-transform: uppercase;
     font-family: $font--header;
     width: 30%;
+    color: $text--black;
   }
 
   img {
     width: 100rem;
     position: relative;
     left: 10%;
-  }
-
-  .illustration-one {
-    font-size: 50rem;
-    color: $text--white;
-    font-family: $font--header;
-    font-weight: 700;
-    left: 4%;
-    position: absolute;
-    z-index: -1;
   }
 
   .illustration-cross {

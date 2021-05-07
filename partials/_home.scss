@@ -25,18 +25,6 @@ nav {
   align-items: center;
   height: 8vh;
   padding-top: 4rem;
-
-  .logo {
-    .logo-text {
-      text-transform: uppercase;
-      font-size: 2.5rem;
-      font-family: $font--logo;
-    }
-    .logo-subtext {
-      text-transform: uppercase;
-      font-size: 1.2rem;
-    }
-  }
 }
 
 .nav-links {
@@ -57,6 +45,18 @@ nav {
       border-bottom: 2px solid $text--white;
       letter-spacing: 0.2rem;
     }
+  }
+}
+
+.logo {
+  .logo-text {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: $font--logo;
+  }
+  .logo-subtext {
+    text-transform: uppercase;
+    font-size: 1.2rem;
   }
 }
 
